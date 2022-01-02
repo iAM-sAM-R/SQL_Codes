@@ -3,5 +3,6 @@ CREATE TABLE Performance (
     Start_time     TIME,
     Classification TEXT,
     Performer      INTEGER REFERENCES Performer ([Emp No]) 
-                           PRIMARY KEY
+                           PRIMARY KEY,
+    Cruise_ID      INTEGER REFERENCES Cruise (CruiseID) 
 );
