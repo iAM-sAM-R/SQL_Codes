@@ -1,0 +1,7 @@
+CREATE TABLE Performance (
+    Notes          TEXT,
+    Start_time     TIME,
+    Classification TEXT,
+    Performer      INTEGER REFERENCES Performer ([Emp No]) 
+                           PRIMARY KEY
+);
