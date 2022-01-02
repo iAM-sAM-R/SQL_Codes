@@ -1,0 +1,8 @@
+CREATE TABLE Performer (
+    [Emp No]   INTEGER       PRIMARY KEY ON CONFLICT ROLLBACK AUTOINCREMENT
+                             NOT NULL ON CONFLICT ROLLBACK,
+    Name       CHAR (255)    NOT NULL ON CONFLICT ROLLBACK,
+    Address    VARCHAR,
+    [Bank BSB] INTEGER (255),
+    [Bank ACC] INTEGER
+);
