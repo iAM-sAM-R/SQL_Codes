@@ -1,0 +1,9 @@
+CREATE TABLE Cruise (
+    CruiseID         INTEGER PRIMARY KEY ON CONFLICT ROLLBACK AUTOINCREMENT
+                             NOT NULL,
+    Start_Port       TEXT,
+    Destination_Port TEXT,
+    Start_Date       DATE    NOT NULL,
+    End_Date         DATE,
+    Performers_List  INTEGER REFERENCES Performer ([Emp No]) 
+);
