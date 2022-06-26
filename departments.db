@@ -4,5 +4,4 @@ CREATE TABLE Departments (
     department_name TEXT (255),
     manager_id      INTEGER    REFERENCES Employees (employeeID),
     location_id     INTEGER    REFERENCES Locations (location_id) 
-
 );
