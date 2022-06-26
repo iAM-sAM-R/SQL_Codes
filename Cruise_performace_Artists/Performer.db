@@ -5,5 +5,4 @@ CREATE TABLE Performer (
     Address    VARCHAR,
     [Bank BSB] INTEGER (255),
     [Bank ACC] INTEGER
-
 );
