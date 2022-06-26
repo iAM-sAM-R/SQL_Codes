@@ -2,5 +2,4 @@ CREATE TABLE Show (
     Title    VARCHAR PRIMARY KEY,
     Duration INTEGER,
     Type     TEXT    NOT NULL
-
 );
