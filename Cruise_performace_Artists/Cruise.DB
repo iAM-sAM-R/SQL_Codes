@@ -6,4 +6,5 @@ CREATE TABLE Cruise (
     Start_Date       DATE    NOT NULL,
     End_Date         DATE,
     Performers_List  INTEGER REFERENCES Performer ([Emp No]) 
+
 );
