@@ -1,0 +1,6 @@
+CREATE TABLE Jobs (
+    job_id   INTEGER    PRIMARY KEY UNIQUE,
+    job_title TEXT (255),
+    min_salary  INTEGER,
+    max_salary  INTEGER 
+);
