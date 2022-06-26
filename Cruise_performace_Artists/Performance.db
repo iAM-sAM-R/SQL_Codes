@@ -6,5 +6,4 @@ CREATE TABLE Performance (
                            PRIMARY KEY,
     Cruise_ID      INTEGER REFERENCES Cruise (CruiseID),
     Show           VARCHAR REFERENCES Show (Title)
-
 );
